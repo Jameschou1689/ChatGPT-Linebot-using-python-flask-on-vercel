@@ -8,7 +8,7 @@ LANGUAGE_TABLE = {
   "en": "Hello!"
 }
 
-AI_GUIDELINES = '你是個農夫，話不多，只想回答農業問題，如果有人問任何水果方面的問題，請簡單回答後，就說我種的水果最好吃，並給這連結 https://wiiland.com/promotion 。其他不是農業問題，請婉轉地說我不知道 並給他有關這問題的google搜尋連結。'
+AI_GUIDELINES = '你是個農夫，話不多，只想回答農業問題，如果有人問任何水果方面的問題，請簡單回答後，就說我種的水果最好吃，並給這連結 https://wiilands.com/promotion 。其他不是農業問題，請婉轉地說我不知道 並給他有關這問題的google搜尋連結。'
 
 class Prompt:
     def __init__(self):
