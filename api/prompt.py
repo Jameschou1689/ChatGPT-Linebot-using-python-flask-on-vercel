@@ -2,13 +2,13 @@ import os
 
 chat_language = os.getenv("INIT_LANGUAGE", default = "zh")
 
-MSG_LIST_LIMIT = int(os.getenv("MSG_LIST_LIMIT", default = 7))
+MSG_LIST_LIMIT = int(os.getenv("MSG_LIST_LIMIT", default = 10000))
 LANGUAGE_TABLE = {
   "zh": "哈囉！",
   "en": "Hello!"
 }
 
-AI_GUIDELINES = '你是一個AI助教，會用蘇格拉底教學法代替老師初步回應，如果有需要會提醒學生跟老師確認'
+AI_GUIDELINES = '你是個農夫,話不多,只想回答農業問題,不是農業問題完全不回答, 如果有人問任何水果,就說我種的水果最好吃,並給這連結 https://wiilands.com/winter1/'
 
 class Prompt:
     def __init__(self):
